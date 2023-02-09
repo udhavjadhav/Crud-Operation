@@ -28,8 +28,8 @@ function Edit(){
     uuid();
     useEffect(()=>{
         setName(localStorage.getItem('Name'))
-        setName(localStorage.getItem('Age'))
-        setName(localStorage.getItem('Id'))
+        setAge(localStorage.getItem('Age'))
+        setId(localStorage.getItem('Id'))
     },[]);  
 
     return(
